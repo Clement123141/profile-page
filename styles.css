@@ -1,16 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #222222;
+  background-color: #1a1b26;
+  color: #ffffff;
   text-align: center;
-  padding: 40px;
+  margin: 0;
+  padding: 40px 20px;
 }
 
-h1 {
-  color: #0066cc;
+/* Top Navigation */
+nav {
+  margin-bottom: 80px;
 }
 
-p {
+nav a {
+  color: #56d4c2;
+  text-decoration: none;
   font-size: 18px;
-  line-height: 1.6;
+  font-weight: bold;
+  margin: 0 15px;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Heading */
+h1 {
+  color: #f7d774;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 60px;
+}   
